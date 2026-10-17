@@ -8,6 +8,9 @@ Carnegie Classification), audited for whether each publishes official AI usage
 guidance/policy on its own domain.
 
 
+
+> **Also on Kaggle:** [aclascollege/us-r1-ai-policy-audit-2026](https://www.kaggle.com/datasets/aclascollege/us-r1-ai-policy-audit-2026) — download the CSV without git, or fork it straight into a notebook.
+
 ## In plain English
 
 **What is this?** A checklist for every single one of America's 187 top
