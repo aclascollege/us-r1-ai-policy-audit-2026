@@ -1,56 +1,38 @@
-# Methodology — Global University AI Policy Audit 2026
+# Methodology — US Carnegie R1 AI Policy Audit 2026
 
-Audit date: **2026-10-14**. Snapshot, not a live registry.
+Audit date: **2026-10-17**. Snapshot, not a live registry.
 
-## What was counted
+## Universe
 
-**YES** = a page on the university's **own official domain** containing guidance or
-policy on AI use (students, teaching, research, or all-community). Generic
-academic-integrity pages that never mention AI do **not** count.
+All **187 institutions** in the 2025 Carnegie Classification R1 category
+("very high research activity"), cross-checked against the Wikipedia "List of
+research universities in the United States" R1 table re-fetched on audit day:
+exact match, 0 missing / 0 extra. (The "146" figure sometimes cited is the
+2021 Carnegie count.)
 
-**NO** = searched in English (+ local language for non-English countries) and found
-no such page.
+## What counts
 
-**UNCLEAR** = could not verify — dead links, portal-gated intranets, crawler-blocked
-domains (e.g. ui.ac.id), or insufficient evidence either way.
+Same rules as the global audit (`../ai-policy-audit-2026/METHODOLOGY.md`):
 
-## How each record was verified
+- **YES** = a page on the university's **own official domain** containing
+  guidance/policy on AI use (students, teaching, research, or all-community).
+  Generic academic-integrity pages that never mention AI do **not** count.
+  Every YES URL was opened and confirmed live on 2026-10-17 (crawl-corroboration
+  fallback transparently noted where used).
+- **NO** = adopted no AI policy after real searching (English).
+- **UNCLEAR** = could not verify (rate-blocked, portal-gated, third-party
+  domain only, draft-only). Not proven absent.
 
-Web search + direct verification: each policy URL below was opened and confirmed to
-load AI usage guidance on 2026-10-14, or corroborated by search-engine crawl of the
-official page plus the MDPI April 2026 systematic audit of top-200 universities'
-GenAI guidelines where direct fetch failed.
+## Caveats
 
-Searches ran in English + local languages (German, French, Chinese, Japanese, Korean,
-Spanish, Portuguese, Arabic, Indonesian, Thai, Vietnamese). This matters: continental
-European and East Asian universities often publish first in the national language,
-and English-only surveys systematically undercount them.
-
-## Samples
-
-- **QS 2026 ranks 1–50** (50 rows), **51–100** (49 rows), **101–150** (50 rows):
-  every ranked institution checked in order.
-- **Global South flagships** (37 rows): flagship universities across Brazil, Argentina,
-  Egypt, Nigeria, Kenya, South Africa, India, Pakistan, Bangladesh, Indonesia,
-  Philippines, Vietnam, Thailand, Malaysia, Mexico, Chile, China.
-
-## Known limitations (read before citing)
-
-1. 15 university names appear in two samples (30 rows flagged `name_overlap`) —
-   the rank-band files overlap (e.g. TU Delft listed at QS 47 and QS 61).
-   Institution-level counts should deduplicate on `university`.
-2. ~5 Global South YES cases are faculty/school-level, not university-wide.
-3. Last-updated dates are inconsistently displayed by universities; "issued in the
-   last 12 months" is approximate.
-4. Two secondary-literature errors were caught and excluded during the audit
-   (a paper conflating Quinnipiac's catalog with Qatar University; a
-   micro-credential page cited as a "policy").
-5. Policies are being published monthly — verify before citing any single row
-   for a current claim.
+- ~30 "soft YES" rows are flagged in `AUDIT-LOG.md` (guidance-level documents,
+  school-level scope, crawl-only confirmations, draft-labeled PDFs, one
+  NetID-gated policy). Highest-risk: CUNY Graduate Center ("Draft" label),
+  Kansas / Kansas State (guidance but "no university-wide policy" stated),
+  WVU / WPI / Yale (crawl-only), MUSC (policy NetID-gated).
+- Two rows were corrected during the audit; provenance kept in
+  `raw/us-r1-batch-10-fix.md` and `raw/us-r1-batch-13-fix.md`.
 
 ## Reproducibility
 
-`parse.py` in this directory is the exact script that generated the CSV/JSON from
-the raw audit tables. Raw tables: `~/workspace/aclas-report/ai-policy-audit/`
-(`qs-001-050.md`, `qs-051-100.md`, `qs-101-150.md`, `global-south-35.md`).
-Corrections welcome via issues or pull requests.
+`parse.py` generated CSV/JSON from `raw/` batch tables (fixes applied).
