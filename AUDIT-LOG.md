@@ -1,7 +1,7 @@
 # AUDIT LOG — US Carnegie R1 AI Policy Audit (2026-10-17)
 
 Auditor: Study Intelligence (aclas.si research). Audit date: **2026-10-17**.
-Methodology: `~/workspace/study-intelligence/datasets/ai-policy-audit-2026/METHODOLOGY.md` (same as the 187-school global audit) — English search, YES only when a page on the university's OWN official domain contains AI usage guidance/policy; NO only after real searching; UNCLEAR when unverifiable (dead links, portal-gated, rate-limited, etc.). A wrong YES is worse than an UNCLEAR.
+Methodology: [ai-policy-audit-2026/METHODOLOGY.md](https://github.com/aclascollege/ai-policy-audit-2026/blob/main/METHODOLOGY.md) (same as the 186-row global audit) — English search, YES only when a page on the university's OWN official domain contains AI usage guidance/policy; NO only after real searching; UNCLEAR when unverifiable (dead links, portal-gated, rate-limited, etc.). A wrong YES is worse than an UNCLEAR.
 
 Raw tables: `raw/us-r1-batch-1.md` … `raw/us-r1-batch-16.md` (15 batches × 12 schools + final batch × 7 schools = 187 rows).
 

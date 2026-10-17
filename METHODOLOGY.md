@@ -12,7 +12,7 @@ exact match, 0 missing / 0 extra. (The "146" figure sometimes cited is the
 
 ## What counts
 
-Same rules as the global audit (`../ai-policy-audit-2026/METHODOLOGY.md`):
+Same rules as the global audit ([ai-policy-audit-2026/METHODOLOGY.md](https://github.com/aclascollege/ai-policy-audit-2026/blob/main/METHODOLOGY.md)):
 
 - **YES** = a page on the university's **own official domain** containing
   guidance/policy on AI use (students, teaching, research, or all-community).

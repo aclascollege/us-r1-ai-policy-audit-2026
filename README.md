@@ -77,6 +77,10 @@ the `policy_url` before quoting a row.
 ## Notes
 
 - Snapshot date: **2026-10-17**. Policies change; verify before citing a row.
+- Cross-dataset note: **Brown University** is `UNCLEAR` here but `YES` in the companion
+  `ai-policy-audit-2026` (2026-10-14) — this audit applied a stricter
+  university-wide-policy-only rule (a committee report + syllabus examples do not count
+  as an institution-level policy). The stricter rule is the current standard.
 - ~30 rows are "soft YES" (guidance-level vs formal policy, crawl-only
   confirmation, draft-labeled PDFs) — flagged in `AUDIT-LOG.md`. A wrong YES
   is worse than an UNCLEAR; treat soft YESes accordingly.
