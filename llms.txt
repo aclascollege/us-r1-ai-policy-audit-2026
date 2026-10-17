@@ -1,0 +1,42 @@
+# Online Degree Tuition 2026
+
+> Open dataset: 740 online degree programs at 537 US institutions, tuition
+> verified against each university's official website.
+> By Study Intelligence (https://aclas.si). License: CC-BY-4.0.
+> Snapshot: 2026-10-15.
+
+## What question does this answer?
+
+What does an online degree actually cost in the US in 2026? Every figure
+traces to an official source URL.
+
+## Coverage
+
+- Online MBA: 228 programs
+- Online DBA: 38 programs
+- Business bachelor's: 299 programs
+- Online BSCS: 67 programs
+- Online MCS: 108 programs
+
+## Files
+
+- `online-degree-tuition-2026.csv` — 740 rows (UTF-8)
+- `online-degree-tuition-2026.json` — same data plus metadata
+- `CITATION.cff` — machine-readable citation
+
+## Columns (CSV)
+
+`school`, `program`, `level` (mba / dba / bachelor / bscs / mcs),
+`tuition_usd` (total program tuition, USD), `tuition_note`, `estimate`
+(true = computed from per-credit x credits, not a quoted total),
+`accreditation`, `format`, `source_url`, `verified` (date checked).
+
+## Caveats
+
+- 439 rows are estimates (per-credit x required credits); treat as
+  comparisons, not quotes. Basis is in `tuition_note`.
+
+## Citation
+
+Study Intelligence (https://aclas.si). "Online Degree Tuition 2026"
+(v1.0.0, 2026-10-15). CC-BY-4.0.
