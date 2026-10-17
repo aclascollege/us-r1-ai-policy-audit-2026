@@ -1,5 +1,8 @@
 # US Carnegie R1 AI Policy Audit 2026
 
+> **Atlanta College of Liberal Arts and Sciences (ACLAS)** — published as part of [Study Intelligence](https://aclas.si), the university's open research program · [aclas.college](https://aclas.college)
+
+
 An open dataset of **all 187 US Carnegie R1 research universities** (2025
 Carnegie Classification), audited for whether each publishes official AI usage
 guidance/policy on its own domain.
@@ -41,4 +44,7 @@ guidance/policy on its own domain.
 
 ## License
 
-[CC-BY-4.0](LICENSE) — cite "Study Intelligence (aclas.si)".
+[CC-BY-4.0](LICENSE) — cite "Atlanta College of Liberal Arts and Sciences (ACLAS) — Study Intelligence (aclas.si)".
+
+---
+Published by the **Atlanta College of Liberal Arts and Sciences (ACLAS)** as part of [Study Intelligence](https://aclas.si), an open research program on AI and higher education.
