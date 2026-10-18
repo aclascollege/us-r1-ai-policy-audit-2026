@@ -1,7 +1,5 @@
 # US Carnegie R1 AI Policy Audit 2026
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23442105.svg)](https://doi.org/10.5281/zenodo.23442105) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/aclascollege/us-r1-ai-policy-audit-2026) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow)](https://huggingface.co/datasets/ACLASCollege/us-r1-ai-policy-audit-2026)
-
 > **Atlanta College of Liberal Arts and Sciences (ACLAS)** — published as part of [Study Intelligence](https://aclas.si), the university's open research program · [aclas.college](https://aclas.college)
 
 
@@ -79,10 +77,6 @@ the `policy_url` before quoting a row.
 ## Notes
 
 - Snapshot date: **2026-10-17**. Policies change; verify before citing a row.
-- Cross-dataset note: **Brown University** is `UNCLEAR` here but `YES` in the companion
-  `ai-policy-audit-2026` (2026-10-14) — this audit applied a stricter
-  university-wide-policy-only rule (a committee report + syllabus examples do not count
-  as an institution-level policy). The stricter rule is the current standard.
 - ~30 rows are "soft YES" (guidance-level vs formal policy, crawl-only
   confirmation, draft-labeled PDFs) — flagged in `AUDIT-LOG.md`. A wrong YES
   is worse than an UNCLEAR; treat soft YESes accordingly.
@@ -94,3 +88,16 @@ the `policy_url` before quoting a row.
 
 ---
 Published by the **Atlanta College of Liberal Arts and Sciences (ACLAS)** as part of [Study Intelligence](https://aclas.si), an open research program on AI and higher education.
+
+## Citation
+
+```bibtex
+@dataset{studyintelligence2026usr1aipolicyaudit,
+  author = {{Study Intelligence}},
+  title = {US R1 University AI Policy Audit 2026},
+  year = {2026},
+  publisher = {Study Intelligence (aclas.si)},
+  doi = {10.5281/zenodo.23442105},
+  url = {https://aclas.si/data/us-r1-ai-policy-audit-2026}
+}
+```
